@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio<span>.</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Swasthika</span></h1>
+
+            <h2>Information Systems Undergraduate</h2>
+
+            <p>
+                I am a passionate student interested in technology,
+                software development, and creative problem solving.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="home-image">
+            <img src="C:\Users\Swasthika\Desktop\new1\ca1\IMG_E9412.JPG"
+                 alt="My Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <p>
+                I am an Information Systems undergraduate who is
+                enthusiastic about learning new technologies and
+                developing innovative digital solutions.
+            </p>
+
+            <p>
+                I enjoy programming, designing websites, working
+                with databases, and collaborating with others.
+                My goal is to become a skilled IT professional
+                and contribute to meaningful technology projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-title">My <span>Education</span></h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>BSc (Hons) Information Systems</h3>
+                <p>University </p>
+                <p>Currently studying Information Systems.</p>
+            </div>
+
+            <div class="card">
+                <h3>Advanced Level</h3>
+                <p>St.Sebastians college katuneriya</p>
+                <p>Technology Stream</p>
+                <p>Completed Advanced Level studies.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div style="width: 85%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div style="width: 75%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="progress">
+                    <div style="width: 70%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div style="width: 60%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>MySQL / PostgreSQL</h3>
+                <div class="progress">
+                    <div style="width: 75%"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="card-container">
+
+            <div class="card project-card">
+                <h3>Clothing Store Management System</h3>
+                <p>
+                    A Java Swing and MySQL application for managing
+                    inventory, customers, and billing.
+                </p>
+                <p class="tech">Java | Swing | MySQL</p>
+            </div>
+
+            <div class="card project-card">
+                <h3>Club Management System</h3>
+                <p>
+                    A system for managing student clubs,
+                    events, registrations, and payments.
+                </p>
+                <p class="tech">Python | Tkinter | MySQL</p>
+            </div>
+
+            <div class="card project-card">
+                <h3>Job Tracking System</h3>
+                <p>
+                    A database application that allows users
+                    to manage jobs, applications, and recruitment.
+                </p>
+                <p class="tech">PostgreSQL | HTML | CSS</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <h2 class="section-title">My <span>Achievements</span></h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Academic Achievement</h3>
+                <p>Successfully progressing in my degree program.</p>
+            </div>
+
+            <div class="card">
+                <h3>Technical Learning</h3>
+                <p>Completed academic programming and database projects.</p>
+            </div>
+
+            <div class="card">
+                <h3>Student Activities</h3>
+                <p>Participated in student activities and event organizing.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+
+            <p>Email: swasthika52488a@gmail.com</p>
+            <p>Location: Mahragama ,Sri Lanka</p>
+
+            <form id="contactForm">
+
+                <input type="text" id="name"
+                       placeholder="Your Name" required>
+
+                <input type="email" id="email"
+                       placeholder="Your Email" required>
+
+                <textarea id="message"
+                          placeholder="Your Message"
+                          rows="5" required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="formMessage"></p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Swasthika | Personal Portfolio</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
